@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#F5FFFA"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/unicode"
+        android:text="দোকান হিসাব"
+        android:textSize="40sp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/bdfonts"
+        android:text="ক্রয় কত টাকা?"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edbuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edit_text"
+        android:padding="20dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="@font/bdfonts"
+        android:hint="কত টাকা দিয়া কিনেছে তা লেখুন"/>
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="বিক্রয় কত টাকা?"
+        android:fontFamily="@font/bdfonts"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edsell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edit_text"
+        android:padding="20dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="@font/bdfonts"
+        android:hint="কত টাকা দিয়া বেছবে তা লেখেন"/>
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bdfonts"
+        android:text="হিসাব করুণ" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="রেজাল্ট"
+        android:gravity="center"
+        android:fontFamily="@font/unicode"
+        android:textColor="@color/teal_700"
+    android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/edit_text"
+        >
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=""
+            android:fontFamily="@font/bdfonts"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+</LinearLayout>
